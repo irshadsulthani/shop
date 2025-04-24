@@ -160,14 +160,14 @@ export default function AlAmeenVegetableShop() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Organic Tomatoes', price: '$3.99/lb', image: 'https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2021-02-24/Tomato.jpg', category: 'organic' },
-              { name: 'Fresh Spinach', price: '$2.49/bunch', image: 'https://storage.googleapis.com/pluckk/uploads/22876-14.jpg', category: 'leafy' },
-              { name: 'Red Bell Peppers', price: '$1.99/each', image: 'https://fruitboxco.com/cdn/shop/products/Red_bell_pepper.jpg?v=1579689969', category: 'fruits' },
-              { name: 'Fresh Carrots', price: '$1.29/lb', image: 'https://5.imimg.com/data5/SELLER/Default/2022/10/JY/SK/TN/161422039/fresh-carrots-fresh-red-carrot-for-sale-1513637912-3529401.jpeg', category: 'root' },
-              { name: 'Broccoli', price: '$2.99/head', image: 'https://www.healthyfood.com/wp-content/uploads/2017/03/What_to_do_with_broccoli-1-1024x768.jpg', category: 'leafy' },
-              { name: 'Fresh Basil', price: '$1.49/bunch', image: 'https://m.media-amazon.com/images/I/61feQSqWbWL._AC_UF1000,1000_QL80_.jpg', category: 'herbs' },
-              { name: 'Organic Potatoes', price: '$0.99/lb', image: 'https://pacificnorthwestfresh.com/cdn/shop/products/potatoes.jpg?v=1584484781', category: 'root' },
-              { name: 'Fresh Cucumber', price: '$0.79/each', image: 'https://5.imimg.com/data5/SELLER/Default/2021/5/OH/JZ/GU/44009489/fresh-cucumbers.jpg', category: 'fruits' },
+              { name: 'Organic Tomatoes', price: '₹20/lb', image: 'https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2021-02-24/Tomato.jpg', category: 'organic' },
+              { name: 'Fresh Spinach', price: '₹249/bunch', image: 'https://storage.googleapis.com/pluckk/uploads/22876-14.jpg', category: 'leafy' },
+              { name: 'Red Bell Peppers', price: '₹199/each', image: 'https://fruitboxco.com/cdn/shop/products/Red_bell_pepper.jpg?v=1579689969', category: 'fruits' },
+              { name: 'Fresh Carrots', price: '₹49/lb', image: 'https://5.imimg.com/data5/SELLER/Default/2022/10/JY/SK/TN/161422039/fresh-carrots-fresh-red-carrot-for-sale-1513637912-3529401.jpeg', category: 'root' },
+              { name: 'Broccoli', price: '₹299/head', image: 'https://www.healthyfood.com/wp-content/uploads/2017/03/What_to_do_with_broccoli-1-1024x768.jpg', category: 'leafy' },
+              { name: 'Fresh Basil', price: '₹25/bunch', image: 'https://m.media-amazon.com/images/I/61feQSqWbWL._AC_UF1000,1000_QL80_.jpg', category: 'herbs' },
+              { name: 'Organic Potatoes', price: '₹35/lb', image: 'https://pacificnorthwestfresh.com/cdn/shop/products/potatoes.jpg?v=1584484781', category: 'root' },
+              { name: 'Fresh Cucumber', price: '₹30/each', image: 'https://5.imimg.com/data5/SELLER/Default/2021/5/OH/JZ/GU/44009489/fresh-cucumbers.jpg', category: 'fruits' },
             ]
             .filter(item => activeCategory === 'all' || item.category === activeCategory)
             .map((product, index) => (
