@@ -216,9 +216,9 @@ export default function AlAmeenVegetableShop() {
               <div key={index} className="bg-white rounded-2xl p-6 shadow-lg text-gray-800">
                 <div className="flex items-center mb-4">
                   <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name} 
-                    className="w-12 h-12 rounded-full mr-4"
+                    // src={testimonial.image} 
+                    // alt={testimonial.name} 
+                    // className="w-12 h-12 rounded-full mr-4"
                   />
                   <h3 className="font-semibold">{testimonial.name}</h3>
                 </div>
